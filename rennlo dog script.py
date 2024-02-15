@@ -26,7 +26,7 @@ if do == True:
             do = False
             
         else:
-            client = OpenAI(api_key="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")
+            client = OpenAI(api_key="<OPEN AI KEY>")
 
             completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
